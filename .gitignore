@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.venv/
+.env
+
+# --- Rust ---
+/service/target/
+**/*.rs.bk
+Cargo.lock
+
+# --- ONNX & Data ---
+*.onnx
+*.csv
+!train/data.csv # Шаблон оставляем
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- VS Code ---
+.vscode/
+.idea/
+*.swp
+*.swo
